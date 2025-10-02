@@ -32,11 +32,11 @@ const WorkSection = () => {
     name: "Carsome",
     logo: carsomeLogo
   }];
-  return <section id="portfolio" className="py-20 bg-gradient-to-br from-background via-background/50 to-primary/5">
+  return <section id="portfolio" className="py-20 bg-[hsl(0,0%,98%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-            <span className="text-foreground">Our </span>
+            <span className="text-[hsl(220,15%,8%)]">Our </span>
             <span className="bg-gradient-primary bg-clip-text text-transparent">Work</span>
           </h2>
           
@@ -44,7 +44,7 @@ const WorkSection = () => {
 
         {/* Work Showcase */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 bg-card/50 backdrop-blur-sm">
+          <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-[hsl(220,15%,85%)] bg-white">
             <div className="aspect-video overflow-hidden">
               <video 
                 src={anaakaVideo} 
@@ -56,45 +56,45 @@ const WorkSection = () => {
             </div>
             <CardContent className="p-6">
               <Badge variant="secondary" className="mb-3">Commercial Production</Badge>
-              <h3 className="text-xl font-semibold mb-2 text-foreground">Anaaka</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <h3 className="text-xl font-semibold mb-2 text-[hsl(220,15%,8%)]">Anaaka</h3>
+              <p className="text-[hsl(220,15%,30%)] text-sm leading-relaxed">
                 Professional commercial video production featuring creative direction, filming, and post-production services for brand storytelling.
               </p>
             </CardContent>
           </Card>
 
-          <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 bg-card/50 backdrop-blur-sm">
+          <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-[hsl(220,15%,85%)] bg-white">
             <div className="aspect-video overflow-hidden">
               <img src={socialMediaWork} alt="Social Media Content Creation" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
             <CardContent className="p-6">
               <Badge variant="secondary" className="mb-3">Social Media Management</Badge>
-              <h3 className="text-xl font-semibold mb-2 text-foreground">PruBSN Stars </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <h3 className="text-xl font-semibold mb-2 text-[hsl(220,15%,8%)]">PruBSN Stars </h3>
+              <p className="text-[hsl(220,15%,30%)] text-sm leading-relaxed">
                 Engaging social media content creation and management across multiple platforms including Instagram, TikTok, and Facebook.
               </p>
             </CardContent>
           </Card>
 
-          <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 bg-card/50 backdrop-blur-sm">
+          <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-[hsl(220,15%,85%)] bg-white">
             <div className="aspect-video overflow-hidden">
               <img src={spaceDollahWork} alt="Space Dollah Youtube Videos" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
             <CardContent className="p-6">
               <Badge variant="secondary" className="mb-3">Content Production</Badge>
-              <h3 className="text-xl font-semibold mb-2 text-foreground">Space Dollah</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">Engaging Youtube content production with creative inputs, edits and studio setting.</p>
+              <h3 className="text-xl font-semibold mb-2 text-[hsl(220,15%,8%)]">Space Dollah</h3>
+              <p className="text-[hsl(220,15%,30%)] text-sm leading-relaxed">Engaging Youtube content production with creative inputs, edits and studio setting.</p>
             </CardContent>
           </Card>
 
-          <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-0 bg-card/50 backdrop-blur-sm">
+          <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-[hsl(220,15%,85%)] bg-white">
             <div className="aspect-video overflow-hidden">
               <img src={kataKitaPodcastWork} alt="Kata Kita Podcast Sessions" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
             <CardContent className="p-6">
               <Badge variant="secondary" className="mb-3">Podcast Production</Badge>
-              <h3 className="text-xl font-semibold mb-2 text-foreground">Kata Kita Podcast </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">Weekly podcast production featuring diverse conversations and celebrity guests in a professional studio setting.</p>
+              <h3 className="text-xl font-semibold mb-2 text-[hsl(220,15%,8%)]">Kata Kita Podcast </h3>
+              <p className="text-[hsl(220,15%,30%)] text-sm leading-relaxed">Weekly podcast production featuring diverse conversations and celebrity guests in a professional studio setting.</p>
             </CardContent>
           </Card>
         </div>

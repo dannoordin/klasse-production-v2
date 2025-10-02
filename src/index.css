@@ -44,6 +44,15 @@ All colors MUST be HSL.
     --gradient-hero: linear-gradient(135deg, hsl(220 15% 8%) 0%, hsl(220 15% 10%) 50%, hsl(0 84% 60% / 0.1) 100%);
     --shadow-glow: 0 0 40px hsl(0 84% 60% / 0.3);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Page section backgrounds */
+    --bg-elegant-white: hsl(0 0% 98%);
+    --bg-light-grey: hsl(220 15% 96%);
+    --bg-medium-grey: hsl(220 15% 92%);
+    --gradient-dark-to-grey: linear-gradient(180deg, hsl(220 15% 8%) 0%, hsl(220 15% 20%) 100%);
+    --gradient-grey-to-white: linear-gradient(180deg, hsl(220 15% 92%) 0%, hsl(0 0% 98%) 100%);
+    --gradient-white-to-grey: linear-gradient(180deg, hsl(0 0% 98%) 0%, hsl(220 15% 92%) 100%);
+    --gradient-grey-to-dark: linear-gradient(180deg, hsl(220 15% 92%) 0%, hsl(220 15% 8%) 100%);
 
     --sidebar-background: 0 0% 98%;
 
