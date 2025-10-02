@@ -95,7 +95,7 @@ const ContactSection = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-foreground mb-6">
+              <h3 className="text-2xl font-semibold mb-6 text-slate-950">
                 Let's start a conversation
               </h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
