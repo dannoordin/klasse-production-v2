@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 220 15% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 220 15% 50%;
+    --primary: 220 10% 35%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 220 15% 15%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 220 15% 15%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 220 15% 50%;
+    --accent: 220 10% 35%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,15 +34,15 @@ All colors MUST be HSL.
 
     --border: 220 15% 20%;
     --input: 220 15% 15%;
-    --ring: 220 15% 50%;
+    --ring: 220 10% 35%;
 
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(220 15% 50%), hsl(220 15% 60%));
+    --gradient-primary: linear-gradient(135deg, hsl(220 10% 35%), hsl(220 10% 45%));
     --gradient-dark: linear-gradient(135deg, hsl(220 15% 8%), hsl(220 15% 12%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 15% 8%) 0%, hsl(220 15% 10%) 50%, hsl(220 15% 50% / 0.1) 100%);
-    --shadow-glow: 0 0 40px hsl(220 15% 50% / 0.3);
+    --gradient-hero: linear-gradient(135deg, hsl(220 15% 8%) 0%, hsl(220 15% 10%) 50%, hsl(220 10% 35% / 0.1) 100%);
+    --shadow-glow: 0 0 40px hsl(220 10% 35% / 0.3);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     
     /* Page section backgrounds */
