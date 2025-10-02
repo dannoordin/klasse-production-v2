@@ -54,7 +54,7 @@ const ContactSection = () => {
   return <section id="contact" className="py-20 bg-gradient-to-b from-[hsl(0,0%,98%)] via-[hsl(220,15%,92%)] to-[hsl(220,15%,8%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl sm:text-5xl font-heading font-bold text-foreground mb-6">
+          <h2 className="text-3xl sm:text-5xl font-heading font-bold text-[hsl(220,15%,8%)] mb-6">
             Get In <span className="bg-gradient-primary bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Looking to expand your digital presence? Let's discuss how we can help your business reach new heights.</p>
