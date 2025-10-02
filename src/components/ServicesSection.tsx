@@ -25,7 +25,7 @@ const ServicesSection = () => {
   return <section id="services" className="py-20 bg-[hsl(0,0%,98%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl sm:text-5xl font-elegant font-light text-[hsl(220,15%,8%)] mb-6">
+          <h2 className="text-3xl sm:text-5xl font-elegant font-medium text-[hsl(220,15%,8%)] mb-6">
             Our <span className="bg-gradient-primary bg-clip-text text-transparent">Services</span>
           </h2>
           

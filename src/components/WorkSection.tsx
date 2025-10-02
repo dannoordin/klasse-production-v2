@@ -35,7 +35,7 @@ const WorkSection = () => {
   return <section id="portfolio" className="py-20 bg-[hsl(0,0%,98%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-elegant font-light mb-6">
+          <h2 className="text-4xl md:text-5xl font-elegant font-medium mb-6">
             <span className="text-[hsl(220,15%,8%)]">Our </span>
             <span className="bg-gradient-primary bg-clip-text text-transparent">Work</span>
           </h2>
