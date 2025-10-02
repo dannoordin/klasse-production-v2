@@ -43,7 +43,7 @@ const ClientsSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           
-          <h2 className="text-3xl sm:text-5xl font-heading font-bold text-foreground mb-6">
+          <h2 className="text-3xl sm:text-5xl font-elegant font-light text-foreground mb-6">
             Trusted by <span className="bg-gradient-primary bg-clip-text text-transparent">Global Brands</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">

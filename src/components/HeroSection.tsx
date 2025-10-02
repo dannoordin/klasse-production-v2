@@ -15,7 +15,7 @@ const HeroSection = () => {
             
           </div>
           
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-light text-white mb-6 leading-tight drop-shadow-lg">
             Elevating Creativity,
             <span className="block bg-gradient-primary bg-clip-text text-transparent py-[8px]">
               Amplifying Impact
