@@ -51,7 +51,7 @@ const ContactSection = () => {
     details: ["Klasse Production", "A2-13-1, Arcoris SOHO, Jalan Kiara", "50480 Kuala Lumpur", "Wilayah Persekutuan, Malaysia"],
     action: "https://maps.google.com"
   }];
-  return <section id="contact" className="py-20 bg-gradient-to-b from-[hsl(0,0%,98%)] via-[hsl(220,15%,92%)] to-[hsl(220,15%,20%)]">
+  return <section id="contact" className="py-20 bg-gradient-to-b from-[hsl(0,0%,98%)] via-[hsl(220,15%,92%)] to-[hsl(220,15%,8%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl sm:text-5xl font-heading font-bold text-foreground mb-6">
