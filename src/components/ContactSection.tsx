@@ -55,7 +55,7 @@ const ContactSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl sm:text-5xl font-elegant font-medium text-[hsl(220,15%,8%)] mb-6">
-            Get In <span className="bg-gradient-primary bg-clip-text text-transparent">Touch</span>
+            <span className="bg-gradient-primary bg-clip-text text-transparent">Get In</span> Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Looking to expand your digital presence? Let's discuss how we can help your business reach new heights.</p>
         </div>

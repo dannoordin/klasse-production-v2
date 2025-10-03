@@ -12,7 +12,7 @@ const AboutSection = () => {
           {/* Content */}
           <div className="animate-fade-in">
             <h2 className="text-3xl sm:text-5xl font-elegant font-medium text-[hsl(220,15%,8%)] mb-6">
-              About <span className="bg-gradient-primary bg-clip-text text-transparent">Klasse Production</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">About</span> Klasse Production
             </h2>
             <p className="text-xl text-[hsl(220,15%,25%)] mb-8 leading-relaxed">We don't just create content - We craft
 experiences that make brands
