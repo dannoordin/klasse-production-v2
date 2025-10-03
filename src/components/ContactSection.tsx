@@ -57,7 +57,7 @@ const ContactSection = () => {
           <h2 className="text-3xl sm:text-5xl font-elegant font-medium text-[hsl(220,15%,8%)] mb-6">
             <span className="bg-gradient-primary bg-clip-text text-transparent">Get In</span> Touch
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Looking to expand your digital presence? Let's discuss how we can help your business reach new heights.</p>
+          <p className="text-xl max-w-3xl mx-auto text-slate-600">Looking to expand your digital presence? Let's discuss how we can help your business reach new heights.</p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -95,10 +95,10 @@ const ContactSection = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-6 text-slate-950">
+              <h3 className="text-2xl font-semibold mb-6 text-slate-800">
                 Let's start a conversation
               </h3>
-              <p className="text-muted-foreground mb-8 leading-relaxed">
+              <p className="mb-8 leading-relaxed text-slate-600">
                 We're here to answer any questions and discuss how our team can help grow your business.
                 Reach out to us through any of the channels below.
               </p>
