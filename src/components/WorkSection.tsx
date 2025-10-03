@@ -101,7 +101,7 @@ const WorkSection = () => {
 
         {/* Client Logos */}
         <div className="mb-16">
-          <h3 className="text-2xl font-heading font-semibold text-center mb-8">
+          <h3 className="text-2xl font-elegant font-semibold text-center mb-8">
             
             <span className="bg-gradient-primary bg-clip-text text-transparent">Featured Clients</span>
           </h3>
