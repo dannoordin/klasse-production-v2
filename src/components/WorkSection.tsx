@@ -105,7 +105,7 @@ const WorkSection = () => {
             
             <span className="bg-gradient-primary bg-clip-text text-transparent">Featured Clients</span>
           </h3>
-          <div className="flex justify-center items-center gap-12 md:gap-16">
+          <div className="grid grid-cols-3 gap-8 md:flex md:justify-center md:items-center md:gap-16">
             {clientLogos.map((client, index) => <div key={index} className="flex items-center justify-center transition-all duration-300">
                 <img src={client.logo} alt={client.name} className="h-12 md:h-16 w-auto object-contain" />
               </div>)}
