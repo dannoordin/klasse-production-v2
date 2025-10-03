@@ -32,7 +32,7 @@ const ServicesSection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {services.map((service, index) => <Card key={index} className="group hover:shadow-glow transition-all duration-300 transform hover:scale-105 bg-white backdrop-blur-sm border-[hsl(220,15%,85%)] hover:border-primary/50">
+          {services.map((service, index) => <Card key={index} className="group hover:shadow-glow transition-all duration-300 transform hover:scale-105 bg-white backdrop-blur-sm border-[hsl(220,15%,85%)] hover:border-primary/50 relative overflow-hidden before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_1px_1px,hsl(220,15%,85%)_1px,transparent_1px)] before:bg-[length:24px_24px] before:opacity-30">
               <CardHeader>
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 group-hover:animate-glow">
                   <service.icon className="h-6 w-6 text-white" />
