@@ -23,6 +23,9 @@ const WorkSection = () => {
     name: "Kata Kita Podcast",
     logo: kataKitaLogo
   }, {
+    name: "Jentayu Sustainables",
+    logo: jentayuLogo
+  }, {
     name: "PruBSN Stars",
     logo: prubsnLogo
   }, {
@@ -37,9 +40,6 @@ const WorkSection = () => {
   }, {
     name: "Larenme PR & Media",
     logo: larenmeLogo
-  }, {
-    name: "Jentayu Sustainables",
-    logo: jentayuLogo
   }, {
     name: "Carsome",
     logo: carsomeLogo
