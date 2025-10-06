@@ -5,13 +5,13 @@ import about2 from "@/assets/about-2.jpg";
 import about3 from "@/assets/about-3.jpg";
 import about4 from "@/assets/about-4.jpg";
 const AboutSection = () => {
-  return <section id="about" className="bg-background py-[140px]">
+  return <section id="about" className="bg-white py-[140px]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
           <div className="animate-fade-in">
-            <h2 className="text-3xl sm:text-5xl font-elegant font-medium text-white mb-6 drop-shadow-lg">
-              <span className="bg-gradient-primary bg-clip-text drop-shadow-lg text-slate-950">About</span> Klasse Production
+            <h2 className="text-3xl sm:text-5xl font-elegant font-medium text-slate-900 mb-6">
+              <span className="bg-gradient-primary bg-clip-text text-slate-950">About</span> Klasse Production
             </h2>
             <p className="text-xl mb-8 leading-relaxed text-slate-900">We don't just create content - We craft
 experiences that make brands
