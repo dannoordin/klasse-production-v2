@@ -25,7 +25,7 @@ const HeroSection = () => {
             </span>
           </h1>
           
-          <p className="text-xl text-white/90 mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-md font-thin sm:text-xl text-center">Our team of forward-thinking creators, strategists, and visual
+          <p className="text-xl text-white/90 mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-md font-thin text-center sm:text-base">Our team of forward-thinking creators, strategists, and visual
 storytellers work hand-in-hand with brands to produce high-impact
 content that sparks conversations and delivers real-world results.</p>
           
