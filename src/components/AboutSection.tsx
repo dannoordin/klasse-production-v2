@@ -13,7 +13,7 @@ const AboutSection = () => {
             <h2 className="text-3xl sm:text-5xl font-elegant font-medium text-white mb-6 drop-shadow-lg">
               <span className="bg-gradient-primary bg-clip-text drop-shadow-lg text-slate-950">About</span> Klasse Production
             </h2>
-            <p className="text-xl text-[hsl(220,15%,25%)] mb-8 leading-relaxed">We don't just create content - We craft
+            <p className="text-xl mb-8 leading-relaxed text-slate-900">We don't just create content - We craft
 experiences that make brands
 impossible to ignore.</p>
             <p className="text-lg text-[hsl(220,15%,30%)] mb-8 leading-relaxed">At Klasse Production, we blend bold creativity with smart
