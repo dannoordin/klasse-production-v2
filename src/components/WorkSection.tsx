@@ -24,7 +24,7 @@ const WorkSection = () => {
     name: "Kata Kita Podcast",
     logo: kataKitaLogo
   }, {
-     name: "Carsome",
+    name: "Carsome",
     logo: carsomeLogo
   }, {
     name: "SpaceDollah",
@@ -50,13 +50,7 @@ const WorkSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-[hsl(220,15%,85%)] bg-white">
             <div className="aspect-video overflow-hidden">
-              <video 
-                src={anaakaVideo} 
-                autoPlay 
-                muted 
-                loop 
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-              />
+              <video src={anaakaVideo} autoPlay muted loop className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
             <CardContent className="p-6">
               <Badge variant="secondary" className="mb-3">Commercial Production</Badge>
@@ -107,7 +101,7 @@ const WorkSection = () => {
         <div className="mb-16">
           <h3 className="text-2xl font-elegant font-semibold text-center mb-8">
             
-            <span className="bg-gradient-primary bg-clip-text text-transparent">Clients & Partners</span>
+            <span className="bg-gradient-primary bg-clip-text text-transparent text-3xl">Clients & Partners</span>
           </h3>
           <div className="grid grid-cols-3 gap-8 md:flex md:justify-center md:items-center md:gap-16">
             {clientLogos.map((client, index) => <div key={index} className="flex items-center justify-center transition-all duration-300">
