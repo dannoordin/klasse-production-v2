@@ -116,7 +116,7 @@ const WorkSection = () => {
                 <img 
                   src={client.logo} 
                   alt={client.name} 
-                  className="h-12 md:h-16 w-auto object-contain"
+                  className={['Jom Borak', 'SpaceDollah', 'Anaaka Halal Skincare', 'Larenme PR & Media'].includes(client.name) ? 'h-16 md:h-20 w-auto object-contain' : 'h-12 md:h-16 w-auto object-contain'}
                   style={{
                     mixBlendMode: ['SpaceDollah', 'Anaaka Halal Skincare', 'Larenme PR & Media'].includes(client.name) ? 'multiply' : 'normal'
                   }}
