@@ -14,20 +14,20 @@ import anaakaLogo from "@/assets/client-anaaka-new.png";
 import carsomeLogo from "@/assets/client-carsome-new.png";
 const WorkSection = () => {
   const clientLogos = [{
-    name: "PruBSN Stars",
-    logo: prubsnLogo
+    name: "SpaceDollah",
+    logo: spaceDollahLogo
   }, {
     name: "Kata Kita Podcast",
     logo: kataKitaLogo
   }, {
-    name: "SpaceDollah",
-    logo: spaceDollahLogo
-  }, {
-    name: "Larenme PR & Media",
-    logo: larenmeLogo
+    name: "PruBSN Stars",
+    logo: prubsnLogo
   }, {
     name: "Anaaka Halal Skincare",
     logo: anaakaLogo
+  }, {
+    name: "Larenme PR & Media",
+    logo: larenmeLogo
   }, {
     name: "Carsome",
     logo: carsomeLogo
