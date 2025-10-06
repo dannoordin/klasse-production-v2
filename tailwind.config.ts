@@ -69,7 +69,7 @@ export default {
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
         heading: ["Poppins", "Inter", "system-ui", "sans-serif"],
-        elegant: ["Cormorant Garamond", "serif"],
+        elegant: ["Ivy Presto Display", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
