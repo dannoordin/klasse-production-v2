@@ -17,8 +17,9 @@ const HeroSection = () => {
           
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-white mb-6 leading-tight drop-shadow-lg">
             Elevating Creativity,
-            <span className="block bg-gradient-primary bg-clip-text text-transparent py-[8px]">
-              Amplifying Impact
+            <span className="block py-[8px]">
+              <span className="text-white">Amplifying </span>
+              <span className="text-red-600">Impact</span>
             </span>
           </h1>
           
