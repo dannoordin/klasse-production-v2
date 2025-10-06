@@ -114,10 +114,10 @@ const ContactSection = () => {
                       <h4 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
                         {info.title}
                       </h4>
-                      <div className="text-muted-foreground">
+                      <div className="text-muted-foreground text-xs sm:text-base">
                         {Array.isArray(info.details) ? info.details.map((line, lineIndex) => <p key={lineIndex} className="leading-tight">
                               {line}
-                            </p>) : <p>{info.details}</p>}
+                            </p>) : <p className="break-all sm:break-normal">{info.details}</p>}
                       </div>
                     </div>
                   </CardContent>
