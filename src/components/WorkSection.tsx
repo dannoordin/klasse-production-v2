@@ -24,17 +24,17 @@ const WorkSection = () => {
     name: "Kata Kita Podcast",
     logo: kataKitaLogo
   }, {
+     name: "Carsome",
+    logo: carsomeLogo
+  }, {
     name: "SpaceDollah",
     logo: spaceDollahLogo
-  }, {
-    name: "Larenme PR & Media",
-    logo: larenmeLogo
   }, {
     name: "Anaaka Halal Skincare",
     logo: anaakaLogo
   }, {
-    name: "Carsome",
-    logo: carsomeLogo
+    name: "Larenme PR & Media",
+    logo: larenmeLogo
   }];
   return <section id="portfolio" className="py-20 bg-[hsl(0,0%,98%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
