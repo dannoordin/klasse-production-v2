@@ -14,20 +14,20 @@ import anaakaLogo from "@/assets/client-anaaka-new.png";
 import carsomeLogo from "@/assets/client-carsome-new.png";
 const WorkSection = () => {
   const clientLogos = [{
-    name: "SpaceDollah",
-    logo: spaceDollahLogo
+    name: "PruBSN Stars",
+    logo: prubsnLogo
   }, {
     name: "Kata Kita Podcast",
     logo: kataKitaLogo
   }, {
-    name: "PruBSN Stars",
-    logo: prubsnLogo
-  }, {
-    name: "Anaaka Halal Skincare",
-    logo: anaakaLogo
+    name: "SpaceDollah",
+    logo: spaceDollahLogo
   }, {
     name: "Larenme PR & Media",
     logo: larenmeLogo
+  }, {
+    name: "Anaaka Halal Skincare",
+    logo: anaakaLogo
   }, {
     name: "Carsome",
     logo: carsomeLogo
@@ -103,11 +103,11 @@ const WorkSection = () => {
         <div className="mb-16">
           <h3 className="text-2xl font-elegant font-semibold text-center mb-8">
             
-            <span className="bg-gradient-primary bg-clip-text text-transparent">Featured Clients</span>
+            <span className="bg-gradient-primary bg-clip-text text-transparent">Clients & Partners</span>
           </h3>
           <div className="grid grid-cols-3 gap-8 md:flex md:justify-center md:items-center md:gap-16">
             {clientLogos.map((client, index) => <div key={index} className="flex items-center justify-center transition-all duration-300">
-                <img src={client.logo} alt={client.name} className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                <img src={client.logo} alt={client.name} className="h-12 md:h-16 w-auto object-contain" />
               </div>)}
           </div>
         </div>
