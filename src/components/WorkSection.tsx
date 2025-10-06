@@ -6,12 +6,13 @@ import kataKitaPodcastWork from "@/assets/kata-kita-podcast-new.png";
 import socialMediaWork from "@/assets/social-media-content.png";
 import spaceDollahWork from "@/assets/space-dollah-work.png";
 import anaakaVideo from "@/assets/anaaka-video.mp4";
-import prubsnLogo from "@/assets/client-prubsn-new.png";
-import kataKitaLogo from "@/assets/client-katakita-new.jpg";
-import spaceDollahLogo from "@/assets/client-spacedollah-new.png";
-import larenmeLogo from "@/assets/client-larenme-new.png";
-import anaakaLogo from "@/assets/client-anaaka-new.png";
-import carsomeLogo from "@/assets/client-carsome-new.png";
+import prubsnLogo from "@/assets/client-prubsn-latest.png";
+import kataKitaLogo from "@/assets/client-katakita-latest.png";
+import spaceDollahLogo from "@/assets/client-spacedollah-latest.png";
+import larenmeLogo from "@/assets/client-larenme-latest.png";
+import anaakaLogo from "@/assets/client-anaaka-latest.png";
+import carsomeLogo from "@/assets/client-carsome-latest.png";
+import jomBorakLogo from "@/assets/client-jomborak-latest.png";
 const WorkSection = () => {
   const clientLogos = [{
     name: "PruBSN Stars",
@@ -31,6 +32,9 @@ const WorkSection = () => {
   }, {
     name: "Carsome",
     logo: carsomeLogo
+  }, {
+    name: "Jom Borak",
+    logo: jomBorakLogo
   }];
   return <section id="portfolio" className="py-20 bg-[hsl(0,0%,98%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
