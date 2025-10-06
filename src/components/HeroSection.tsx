@@ -1,11 +1,20 @@
 import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ShaderAnimation } from "@/components/ui/shader-animation";
+import heroVideo from "@/assets/hero-background.mp4";
 const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
-      {/* Shader Animation Background */}
+      {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        <ShaderAnimation />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover pointer-events-none"
+        >
+          <source src={heroVideo} type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-black/40" />
       </div>
       
       {/* Content Layer */}
