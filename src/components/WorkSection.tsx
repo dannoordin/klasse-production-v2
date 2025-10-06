@@ -20,14 +20,14 @@ const WorkSection = () => {
     name: "Jom Borak",
     logo: jomBorakLogo
   }, {
-    name: "PruBSN Stars",
-    logo: prubsnLogo
-  }, {
     name: "Kata Kita Podcast",
     logo: kataKitaLogo
   }, {
-    name: "Carsome",
-    logo: carsomeLogo
+    name: "PruBSN Stars",
+    logo: prubsnLogo
+  }, {
+    name: "PruBSN Takaful",
+    logo: prubsnTakafulLogo
   }, {
     name: "SpaceDollah",
     logo: spaceDollahLogo
@@ -41,8 +41,8 @@ const WorkSection = () => {
     name: "Jentayu Sustainables",
     logo: jentayuLogo
   }, {
-    name: "PruBSN Takaful",
-    logo: prubsnTakafulLogo
+    name: "Carsome",
+    logo: carsomeLogo
   }];
   return <section id="portfolio" className="py-20 bg-[hsl(0,0%,98%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
