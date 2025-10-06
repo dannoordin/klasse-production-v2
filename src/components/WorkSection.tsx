@@ -80,7 +80,7 @@ const WorkSection = () => {
             </div>
             <CardContent className="p-6">
               <Badge variant="secondary" className="mb-3">Content Production</Badge>
-              <h3 className="text-xl font-semibold mb-2 text-[hsl(220,15%,8%)]">Space Dollah</h3>
+              <h3 className="text-xl font-semibold mb-2 text-[hsl(220,15%,8%)]">SpaceDollah</h3>
               <p className="text-[hsl(220,15%,30%)] text-sm leading-relaxed">Engaging Youtube content production with creative inputs, edits and studio setting.</p>
             </CardContent>
           </Card>
