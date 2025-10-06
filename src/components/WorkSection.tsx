@@ -13,6 +13,7 @@ import larenmeLogo from "@/assets/client-larenme-latest.png";
 import anaakaLogo from "@/assets/client-anaaka-latest.png";
 import carsomeLogo from "@/assets/client-carsome-latest.png";
 import jomBorakLogo from "@/assets/client-jomborak-latest.png";
+import jentayuLogo from "@/assets/client-jentayu.png";
 const WorkSection = () => {
   const clientLogos = [{
     name: "Jom Borak",
@@ -35,6 +36,9 @@ const WorkSection = () => {
   }, {
     name: "Larenme PR & Media",
     logo: larenmeLogo
+  }, {
+    name: "Jentayu Sustainables",
+    logo: jentayuLogo
   }];
   return <section id="portfolio" className="py-20 bg-[hsl(0,0%,98%)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
