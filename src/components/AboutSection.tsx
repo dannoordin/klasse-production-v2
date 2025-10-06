@@ -16,7 +16,7 @@ const AboutSection = () => {
             <p className="text-xl mb-8 leading-relaxed text-slate-900">We don't just create content - We craft
 experiences that make brands
 impossible to ignore.</p>
-            <p className="text-lg text-[hsl(220,15%,30%)] mb-8 leading-relaxed">At Klasse Production, we blend bold creativity with smart
+            <p className="text-lg mb-8 leading-relaxed text-justify text-slate-800">At Klasse Production, we blend bold creativity with smart
 strategy to produce scroll-stopping content that drives
 engagement and boosts brand presence.
 From marketing magic to cinematic production, we bring
