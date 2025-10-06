@@ -5,13 +5,7 @@ const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover pointer-events-none"
-        >
+        <video autoPlay loop muted playsInline className="w-full h-full object-cover pointer-events-none">
           <source src={heroVideo} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/40" />
@@ -26,7 +20,7 @@ const HeroSection = () => {
           
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-white mb-6 leading-tight drop-shadow-lg">
             Elevating Creativity,
-            <span className="block bg-gradient-primary bg-clip-text text-transparent py-[8px]">
+            <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950">
               Amplifying Impact
             </span>
           </h1>
