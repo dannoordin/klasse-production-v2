@@ -2,7 +2,7 @@ import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroVideo from "@/assets/hero-background-new.mp4";
 const HeroSection = () => {
-  return <section id="home" className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+  return <section id="home" className="relative min-h-screen flex items-end justify-center pt-16 pb-32 overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <video autoPlay loop muted playsInline className="w-full h-full object-cover pointer-events-none">
