@@ -26,7 +26,7 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl sm:text-5xl font-elegant font-medium text-[hsl(220,15%,8%)] mb-6">
-            <span className="bg-gradient-primary bg-clip-text text-transparent">Our</span> Services
+            <span className="bg-gradient-primary bg-clip-text text-transparent">OUR</span> SERVICES
           </h2>
           
         </div>
