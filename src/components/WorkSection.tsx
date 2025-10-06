@@ -101,7 +101,7 @@ const WorkSection = () => {
         <div className="mb-16">
           <h3 className="text-2xl font-elegant font-semibold text-center mb-8">
             
-            <span className="bg-gradient-primary bg-clip-text text-transparent text-xl">Clients & Partners</span>
+            <span className="bg-gradient-primary bg-clip-text text-2xl font-medium text-slate-900">Clients & Partners</span>
           </h3>
           <div className="grid grid-cols-3 gap-8 md:flex md:justify-center md:items-center md:gap-16">
             {clientLogos.map((client, index) => <div key={index} className="flex items-center justify-center transition-all duration-300">
