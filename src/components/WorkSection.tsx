@@ -6,12 +6,12 @@ import kataKitaPodcastWork from "@/assets/kata-kita-podcast-new.png";
 import socialMediaWork from "@/assets/social-media-content.png";
 import spaceDollahWork from "@/assets/space-dollah-work.png";
 import anaakaVideo from "@/assets/anaaka-video.mp4";
-import prubsnLogo from "@/assets/client-prubsn.jpeg";
-import kataKitaLogo from "@/assets/client-katakita.jpg";
-import spaceDollahLogo from "@/assets/client-spacedollah.jpg";
-import larenmeLogo from "@/assets/client-larenme.png";
-import anaakaLogo from "@/assets/client-anaaka.jpg";
-import carsomeLogo from "@/assets/client-carsome.png";
+import prubsnLogo from "@/assets/client-prubsn-new.png";
+import kataKitaLogo from "@/assets/client-katakita-new.jpg";
+import spaceDollahLogo from "@/assets/client-spacedollah-new.png";
+import larenmeLogo from "@/assets/client-larenme-new.png";
+import anaakaLogo from "@/assets/client-anaaka-new.png";
+import carsomeLogo from "@/assets/client-carsome-new.png";
 const WorkSection = () => {
   const clientLogos = [{
     name: "PruBSN Stars",
