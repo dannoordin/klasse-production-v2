@@ -11,20 +11,17 @@ const HeroSection = () => {
       </div>
       
       {/* Content Layer */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
         <div className="text-center animate-fade-in">
-          <div className="mb-8">
-            
-          </div>
           
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-6 leading-tight mt-12">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-4 leading-tight">
             Elevating Creativity,
             <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950">
               Amplifying Impact
             </span>
           </h1>
           
-          <p className="text-xl text-slate-700 mb-10 max-w-3xl mx-auto leading-relaxed text-center font-light sm:text-lg py-[40px] my-0">Our team of forward-thinking creators, strategists, and visual
+          <p className="text-xl text-slate-700 mb-0 max-w-3xl mx-auto leading-relaxed text-center font-light sm:text-lg">Our team of forward-thinking creators, strategists, and visual
 storytellers work hand-in-hand with brands to produce high-impact
 content that sparks conversations and delivers real-world results.</p>
           
