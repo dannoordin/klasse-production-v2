@@ -17,7 +17,7 @@ const HeroSection = () => {
             
           </div>
           
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-6 leading-tight mt-12">
             Elevating Creativity,
             <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950">
               Amplifying Impact
