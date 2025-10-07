@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
         <div className="text-center animate-fade-in">
           
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-4 leading-tight">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-10 leading-tight">
             Elevating Creativity,
             <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950">
               Amplifying Impact
