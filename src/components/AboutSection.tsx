@@ -5,7 +5,7 @@ import about2 from "@/assets/about-2.jpg";
 import about3 from "@/assets/about-3.jpg";
 import about4 from "@/assets/about-4.jpg";
 const AboutSection = () => {
-  return <section id="about" className="bg-white py-[140px]">
+  return <section id="about" className="bg-gradient-to-b from-[hsl(0,0%,96%)] via-white to-[hsl(0,0%,98%)] py-[140px]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
