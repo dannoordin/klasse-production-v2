@@ -15,8 +15,8 @@ const HeroSection = () => {
         <div className="text-center animate-fade-in">
           
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-20 leading-tight">
-            <span className="block animate-fade-in">Elevating Creativity,</span>
-            <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950 animate-fade-in [animation-delay:0.3s] opacity-0 [animation-fill-mode:forwards]">
+            <span className="block animate-fade-in [animation-delay:1s] opacity-0 [animation-fill-mode:forwards]">Elevating Creativity,</span>
+            <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950 animate-fade-in [animation-delay:1.8s] opacity-0 [animation-fill-mode:forwards]">
               Amplifying Impact
             </span>
           </h1>
