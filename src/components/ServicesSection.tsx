@@ -45,28 +45,28 @@ const ServicesSection = () => {
                   <img 
                     src={socialMediaManagement} 
                     alt="Social Media Management" 
-                    className="w-full h-96 object-cover object-top rounded-lg mt-4"
+                    className="w-full h-96 object-cover object-top rounded-lg mt-8"
                   />
                 )}
                 {service.title === "Content Creation & Marketing" && (
                   <img 
                     src={contentCreationMarketing} 
                     alt="Content Creation & Marketing" 
-                    className="w-full h-96 object-cover rounded-lg mt-4"
+                    className="w-full h-96 object-cover rounded-lg mt-8"
                   />
                 )}
                 {service.title === "Full Scale Production" && (
                   <img 
                     src={fullScaleProduction} 
                     alt="Full Scale Production" 
-                    className="w-full h-96 object-cover rounded-lg mt-4"
+                    className="w-full h-96 object-cover rounded-lg mt-8"
                   />
                 )}
                 {service.title === "Retail Distribution & Management" && (
                   <img 
                     src={retailProducts} 
                     alt="Retail Products" 
-                    className="w-full h-96 object-cover rounded-lg mt-4"
+                    className="w-full h-96 object-cover rounded-lg mt-8"
                   />
                 )}
               </CardHeader>
