@@ -43,7 +43,7 @@ const ServicesSection = () => {
                   <img 
                     src={socialMediaManagement} 
                     alt="Social Media Management" 
-                    className="w-full h-96 object-cover rounded-lg mt-4"
+                    className="w-full h-96 object-cover object-top rounded-lg mt-4"
                   />
                 )}
                 {service.title === "Retail Distribution & Management" && (
