@@ -4,19 +4,26 @@ import heroVideo from "@/assets/hero-background-new.mp4";
 const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-end justify-center pt-16 pb-32 overflow-hidden bg-white">
       {/* Video Background */}
-      <div className="absolute inset-0 z-0">
-        <video autoPlay loop muted playsInline className="w-full h-full object-cover pointer-events-none">
+      <div className="absolute inset-0 z-0 bg-white">
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          preload="metadata"
+          className="w-full h-full object-cover pointer-events-none"
+        >
           <source src={heroVideo} type="video/mp4" />
         </video>
       </div>
       
       {/* Content Layer */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-        <div className="text-center animate-fade-in">
+        <div className="text-center">
           
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-10 sm:mb-20 leading-tight">
-            <span className="block animate-fade-in [animation-delay:1s] opacity-0 [animation-fill-mode:forwards]">Elevating Creativity,</span>
-            <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950 animate-fade-in [animation-delay:1.8s] opacity-0 [animation-fill-mode:forwards]">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-10 sm:mb-20 leading-tight animate-fade-in">
+            <span className="block animate-fade-in [animation-delay:0.3s] opacity-0 [animation-fill-mode:forwards]">Elevating Creativity,</span>
+            <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950 animate-fade-in [animation-delay:0.6s] opacity-0 [animation-fill-mode:forwards]">
               Amplifying Impact
             </span>
           </h1>
