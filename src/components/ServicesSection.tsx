@@ -1,6 +1,5 @@
 import { Search, Target, TrendingUp, Users, Megaphone, BarChart3, Truck, Globe, Camera } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import prubsnStars from "@/assets/prubsn-stars.png";
 const ServicesSection = () => {
   const services = [{
     icon: TrendingUp,
@@ -43,7 +42,6 @@ const ServicesSection = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                {index === 0 && <img src={prubsnStars} alt="PruBSN Stars Social Media Content" className="w-full rounded-lg mb-4" />}
                 <p className="text-[hsl(220,15%,30%)] mb-4 leading-relaxed">
                   {service.description}
                 </p>
