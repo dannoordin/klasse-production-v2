@@ -2,6 +2,7 @@ import { Search, Target, TrendingUp, Users, Megaphone, BarChart3, Truck, Globe, 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import retailProducts from "@/assets/retail-products.jpg";
 import socialMediaManagement from "@/assets/social-media-management.png";
+import fullScaleProduction from "@/assets/full-scale-production.png";
 const ServicesSection = () => {
   const services = [{
     icon: TrendingUp,
@@ -44,6 +45,13 @@ const ServicesSection = () => {
                     src={socialMediaManagement} 
                     alt="Social Media Management" 
                     className="w-full h-96 object-cover object-top rounded-lg mt-4"
+                  />
+                )}
+                {service.title === "Full Scale Production" && (
+                  <img 
+                    src={fullScaleProduction} 
+                    alt="Full Scale Production" 
+                    className="w-full h-96 object-cover rounded-lg mt-4"
                   />
                 )}
                 {service.title === "Retail Distribution & Management" && (
