@@ -4,8 +4,8 @@ import heroVideo from "@/assets/hero-background-new.mp4";
 const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-end justify-center pt-16 pb-32 overflow-hidden bg-white">
       {/* Video Background */}
-      <div className="absolute inset-0 z-0">
-        <video autoPlay loop muted playsInline className="w-full h-full object-cover pointer-events-none scale-[0.6] sm:scale-100 origin-center">
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <video autoPlay loop muted playsInline className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full object-cover pointer-events-none scale-[0.6] sm:scale-100 origin-center w-[167%] h-[167%] sm:w-full sm:h-full">
           <source src={heroVideo} type="video/mp4" />
         </video>
       </div>
