@@ -42,7 +42,7 @@ const ServicesSection = () => {
                   <img 
                     src={retailProducts} 
                     alt="Retail Products" 
-                    className="w-full h-48 object-cover rounded-lg mt-4"
+                    className="w-full h-96 object-cover rounded-lg mt-4"
                   />
                 )}
               </CardHeader>
