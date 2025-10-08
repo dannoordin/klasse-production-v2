@@ -1,5 +1,6 @@
 import { Search, Target, TrendingUp, Users, Megaphone, BarChart3, Truck, Globe, Camera } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import retailProducts from "@/assets/retail-products.jpg";
 const ServicesSection = () => {
   const services = [{
     icon: TrendingUp,
@@ -37,6 +38,13 @@ const ServicesSection = () => {
                 <CardTitle className="text-xl font-semibold text-[hsl(220,15%,8%)] group-hover:text-primary transition-colors">
                   {service.title}
                 </CardTitle>
+                {service.title === "Retail Distribution & Management" && (
+                  <img 
+                    src={retailProducts} 
+                    alt="Retail Products" 
+                    className="w-full h-48 object-cover rounded-lg mt-4 opacity-100 group-hover:opacity-0 transition-opacity duration-500"
+                  />
+                )}
               </CardHeader>
               <CardContent className="max-h-0 opacity-0 overflow-hidden group-hover:max-h-[500px] group-hover:opacity-100 transition-all duration-500 ease-in-out">
                 <p className="text-[hsl(220,15%,30%)] mb-4 leading-relaxed">
