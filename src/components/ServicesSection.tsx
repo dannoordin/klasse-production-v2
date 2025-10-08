@@ -32,7 +32,7 @@ const ServicesSection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {services.map((service, index) => <Card key={index} className="group hover:shadow-glow transition-all duration-300 transform hover:scale-105 bg-white backdrop-blur-sm border-[hsl(220,15%,85%)] hover:border-primary/50 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(45deg,hsl(220,15%,85%)_1px,transparent_1px),linear-gradient(-45deg,hsl(220,15%,85%)_1px,transparent_1px)] before:bg-[length:20px_20px] before:opacity-20">
+          {services.map((service, index) => <Card key={index} className="group hover:shadow-glow transition-all duration-500 transform hover:scale-105 bg-white backdrop-blur-sm border-[hsl(220,15%,85%)] hover:border-primary/50 relative overflow-hidden before:absolute before:inset-0 before:bg-[linear-gradient(45deg,hsl(220,15%,85%)_1px,transparent_1px),linear-gradient(-45deg,hsl(220,15%,85%)_1px,transparent_1px)] before:bg-[length:20px_20px] before:opacity-20">
               <CardHeader>
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 group-hover:animate-glow">
                   <service.icon className="h-6 w-6 text-white" />
@@ -41,7 +41,7 @@ const ServicesSection = () => {
                   {service.title}
                 </CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="max-h-0 opacity-0 overflow-hidden group-hover:max-h-[500px] group-hover:opacity-100 transition-all duration-500 ease-in-out">
                 <p className="text-[hsl(220,15%,30%)] mb-4 leading-relaxed">
                   {service.description}
                 </p>
