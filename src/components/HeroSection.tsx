@@ -2,9 +2,9 @@ import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroVideo from "@/assets/hero-background-new.mp4";
 const HeroSection = () => {
-  return <section id="home" className="relative min-h-screen flex items-end justify-center pt-16 pb-32 overflow-hidden bg-white">
+  return <section id="home" className="relative min-h-screen flex items-end justify-center pt-16 pb-32 overflow-hidden bg-white" style={{ contain: 'layout' }}>
       {/* Video Background */}
-      <div className="absolute inset-0 z-0 bg-white">
+      <div className="absolute inset-0 z-0 bg-white" style={{ willChange: 'auto' }}>
         <video 
           autoPlay 
           loop 
@@ -12,6 +12,7 @@ const HeroSection = () => {
           playsInline 
           preload="none"
           className="w-full h-full object-cover pointer-events-none"
+          style={{ willChange: 'auto' }}
         >
           <source src={heroVideo} type="video/mp4" />
         </video>
@@ -21,9 +22,9 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
         <div className="text-center">
           
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-10 sm:mb-20 leading-tight animate-fade-in">
-            <span className="block animate-fade-in [animation-delay:0.3s] opacity-0 [animation-fill-mode:forwards]">Elevating Creativity,</span>
-            <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950 animate-fade-in [animation-delay:0.6s] opacity-0 [animation-fill-mode:forwards]">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-10 sm:mb-20 leading-tight animate-fade-in" style={{ willChange: 'opacity, transform' }}>
+            <span className="block animate-fade-in [animation-delay:0.3s] opacity-0 [animation-fill-mode:forwards]" style={{ willChange: 'opacity, transform' }}>Elevating Creativity,</span>
+            <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950 animate-fade-in [animation-delay:0.6s] opacity-0 [animation-fill-mode:forwards]" style={{ willChange: 'opacity, transform' }}>
               Amplifying Impact
             </span>
           </h1>
