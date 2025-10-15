@@ -39,7 +39,7 @@ const HeroSection = () => {
           
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-elegant font-medium text-slate-900 mb-10 sm:mb-20 leading-tight animate-fade-in" style={{ willChange: 'opacity, transform' }}>
             <span className="block animate-fade-in [animation-delay:0.3s] opacity-0 [animation-fill-mode:forwards]" style={{ willChange: 'opacity, transform' }}>Elevating Creativity,</span>
-            <span className="block bg-gradient-primary bg-clip-text py-[8px] text-slate-950 animate-fade-in [animation-delay:0.6s] opacity-0 [animation-fill-mode:forwards]" style={{ willChange: 'opacity, transform' }}>
+            <span className="block text-brand-orange py-[8px] animate-fade-in [animation-delay:0.6s] opacity-0 [animation-fill-mode:forwards]" style={{ willChange: 'opacity, transform' }}>
               Amplifying Impact
             </span>
           </h1>
