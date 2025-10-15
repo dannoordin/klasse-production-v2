@@ -1,20 +1,35 @@
 import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroVideo from "@/assets/hero-background-new.mp4";
+import heroVideoMobile from "@/assets/hero-background-mobile.mp4";
 const HeroSection = () => {
   return <section id="home" className="relative min-h-screen flex items-end justify-center pt-16 pb-32 overflow-hidden bg-white" style={{ contain: 'layout' }}>
       {/* Video Background */}
       <div className="absolute inset-0 z-0 bg-white" style={{ willChange: 'auto' }}>
+        {/* Desktop/Tablet Video */}
         <video 
           autoPlay 
           loop 
           muted 
           playsInline 
           preload="none"
-          className="w-full h-full object-cover pointer-events-none"
+          className="hidden md:block w-full h-full object-cover pointer-events-none"
           style={{ willChange: 'auto' }}
         >
           <source src={heroVideo} type="video/mp4" />
+        </video>
+        
+        {/* Mobile Video */}
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline 
+          preload="none"
+          className="block md:hidden w-full h-full object-cover pointer-events-none"
+          style={{ willChange: 'auto' }}
+        >
+          <source src={heroVideoMobile} type="video/mp4" />
         </video>
       </div>
       
