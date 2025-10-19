@@ -110,12 +110,12 @@ const WorkSection = () => {
             
             <span className="bg-gradient-primary bg-clip-text text-2xl font-medium text-slate-900">Clients & Partners</span>
           </h3>
-          <div className="grid grid-cols-3 gap-8 md:flex md:justify-center md:items-center md:gap-16">
+          <div className="grid grid-cols-3 gap-8 md:grid md:grid-cols-3 md:gap-12 lg:flex lg:justify-center lg:items-center lg:gap-16">
             {clientLogos.map((client, index) => <div key={index} className="flex items-center justify-center transition-all duration-300">
                 <img 
                   src={client.logo} 
                   alt={client.name} 
-                  className={['Jom Borak', 'SpaceDollah', 'Anaaka Halal Skincare', 'Larenme PR & Media'].includes(client.name) ? 'h-16 md:h-20 w-auto object-contain' : 'h-12 md:h-16 w-auto object-contain'}
+                  className={['Jom Borak', 'SpaceDollah', 'Anaaka Halal Skincare', 'Larenme PR & Media'].includes(client.name) ? 'h-16 md:h-24 lg:h-20 w-auto object-contain' : 'h-12 md:h-20 lg:h-16 w-auto object-contain'}
                   style={{
                     mixBlendMode: ['SpaceDollah', 'Anaaka Halal Skincare', 'Larenme PR & Media'].includes(client.name) ? 'multiply' : 'normal'
                   }}
